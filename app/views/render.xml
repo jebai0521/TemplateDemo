@@ -1,0 +1,7 @@
+<Alloy>
+	<Window  id="container"  class="container">
+	    
+	    <WebView id="webview" url="http://www.baidu.com/"></WebView>
+	    <Button onClick="_onBack" id="back">Back</Button>>
+	</Window>
+</Alloy>

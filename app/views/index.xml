@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" onOpen="_onOpen">
+        <ListView id="list" onItemclick="_doItemClick">
+            <Templates>
+                <ItemTemplate name="template" id="fruitRow">
+                    <Label bindId="name" id="name" />
+                    <Label bindId="gender" id="gender" />
+                </ItemTemplate>
+            </Templates>
+            
+            <ListSection id="mainSection">
+            </ListSection>
+        </ListView>
+	</Window>
+</Alloy>
